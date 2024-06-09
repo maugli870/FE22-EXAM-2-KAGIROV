@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left-section">
+            <div class="header-logo">
+                <div class="header-logo-burger-button">
+                    <svg class="burger-icon" viewBox="0 0 30 30">
+                        <use href="sprite.svg#burger-icon"></use>
+                    </svg>
+                </div>
+                <span class="header-logo-txt">MyPlanner</span>
+            </div>
+            <nav class="header-menu-container">
+                <ul class="header-menu">
+                    <li class="header-menu-element">Home</li>
+                    <li class="header-menu-element">Tasks</li>
+                    <li class="header-menu-element">Settings</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-bell-logo">
+            <svg class="bell" viewBox="0 0 30 30">
+                <use href="sprite.svg#bell-icon"></use>
+            </svg>
+            <span class="bell-count">1</span>
+        </div>
+    </header>
+    <main>
+        <section class="weekly-planner">
+            <div class="weekly-planner-background-image">
+                <div class="weekly-planner-background-color">
+                    <h2 class="weekly-planner-title">Weekly planner</h2>
+                </div>
+            </div>
+        </section>
+        <section class="weekly-tasks">
+            <div class="weekly-tasks-header">
+                <h2 class="weekly-tasks-header-title">Weekly Tasks</h2>
+                <div class="weekly-tasks-header-sorting">
+                    <span class="weekly-tasks-header-sorting-txt">Sort by priority:</span>
+                    <div class="weekly-tasks-header-sorting-logo">
+                        <svg class="priority-icon" viewBox="0 0 30 30">
+                            <use href="sprite.svg#priority-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <ul class="weekly-tasks-container" id="list-container"></ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-linksContainer">
+            <div class="footer-link">
+
+                <svg class="icon-facebook" viewBox="0 0 30 30">
+                    <use href="sprite.svg#social-facebook"></use>
+                </svg>
+            </div>
+            <div class="footer-link">
+                <svg class="icon-twitter" viewBox="0 0 30 30">
+                    <use href="sprite.svg#social-twitter"></use>
+                </svg>
+            </div>
+            <div class="footer-link">
+                <svg class="icon-google" viewBox="0 0 30 30">
+                    <use href="sprite.svg#social-google"></use>
+                </svg>
+            </div>
+            <div class="footer-link">
+                <svg class="icon-insta" viewBox="0 0 30 30">
+                    <use href="sprite.svg#social-insta"></use>
+                </svg>
+            </div>
+            <div class="footer-link">
+                <svg class="icon-linkedIn" viewBox="0 0 30 30">
+                    <use href="sprite.svg#social-linkedIn"></use>
+                </svg>
+            </div>
+            <div class="footer-link">
+                <svg class="icon-gitHub" viewBox="0 0 30 30">
+                    <use href="sprite.svg#social-gitHub"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="footer-singUpForm">
+            <p class="footer-singUp-title">Sing up for our newsletter</p>
+            <input class="footer-input" />
+            <div class="footer-subscribeBtn">
+                Subscribe
+            </div>
+        </div>
+        <div class="footer-copyright-title">Ⓒ 2022 Copyright: YourName</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

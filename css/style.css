@@ -1,0 +1,411 @@
+ul {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(34, 37, 41);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.header-left-section {
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-menu-element {
+  color: gray;
+  font-family: "Embed codeEmbed code", sans-serif;
+  font-size: 15px;
+}
+.header-menu-element:not(:last-child) {
+  margin-right: 12px;
+}
+.header-logo {
+  display: flex;
+  margin-right: 25px;
+}
+.header-bell-logo {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.bell {
+  position: absolute;
+  top: 2px;
+}
+.header-logo-burger-button {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.header-logo-txt {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+.weekly-planner {
+  height: 500px;
+}
+.weekly-planner-background-image {
+  background-color: rgb(184, 184, 184);
+  background: url(../imgs/bg.jpg);
+  background-attachment: initial;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weekly-planner-background-color {
+  padding: 32px;
+  width: max-content;
+  background-color: rgba(46, 46, 46, 0.336);
+}
+.weekly-planner-title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+.weekly-tasks {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+.weekly-tasks-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.weekly-tasks-header-title {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.weekly-tasks-header-sorting {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.weekly-tasks-header-sorting-txt {
+  font-family: "Roboto", sans-serif;
+  margin-right: 5px;
+  position: absolute;
+  right: 30px;
+  width: 110px;
+}
+.weekly-tasks-header-sorting-logo {
+  width: 37px;
+  height: 37px;
+  margin: 0;
+  position: absolute;
+  right: -7px;
+  top: -17px;
+}
+.weekly-tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-right: -45px;
+  margin-bottom: -45px;
+}
+.weekly-tasks-container-element {
+  width: 350px;
+  height: max-content;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 45px;
+  margin-right: 45px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.weekly-tasks-container-element:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
+.weekly-tasks-el-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.weekly-tasks-el-taskTitle {
+  padding: 8px;
+  font-size: 15px;
+  background-color: rgb(91, 200, 220);
+  width: max-content;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.weekly-tasks-el-logosContainer {
+  display: flex;
+}
+
+.weekly-tasks-el-checkBox-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.weekly-tasks-el-kebab-logo {
+  width: 30px;
+  height: 30px;
+}
+.weekly-tasks-el-image {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(227, 227, 227);
+}
+.weekly-tasks-el-image-container {
+  width: 350;
+  height: 200px;
+  padding: 5px;
+  border: solid 1px rgb(226, 226, 226);
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.weekly-tasks-el-task-container {
+  margin-bottom: 10px;
+}
+.weekly-tasks-el-task {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.weekly-tasks-el-taskDescription {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.weekly-tasks-el-notes-level {
+  margin-bottom: 15px;
+  display: flex;
+}
+.weekly-tasks-el-notes-term {
+  display: flex;
+}
+.weekly-tasks-el-notes-level-text {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.weekly-tasks-el-notes-term-text {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.weekly-tasks-el-notes-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-top: 1px rgb(201, 201, 201) solid;
+  border-bottom: 1px rgb(201, 201, 201) solid;
+}
+.weekly-tasks-el-notes-term-logo {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.weekly-tasks-el-notes-level-logo {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.weekly-tasks-el-notes-level-text-value {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+.weekly-tasks-el-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weekly-tasks-el-importanceBtn {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(0, 110, 183);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+}
+.weekly-tasks-el-deleteBtn {
+  height: 35px;
+  width: 80px;
+  background-color: rgb(173, 47, 47);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  position: relative;
+}
+.delete-title {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
+.deleteBtn-container {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+.weekly-tasks-el-doneBtn {
+  height: 35px;
+  width: 80px;
+  background-color: rgb(41, 142, 78);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  position: relative;
+}
+.doneBtn-container {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+.doneBtn-txt {
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+.footer {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(32, 32, 32);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer-linksContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer-link {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px;
+  position: relative;
+}
+
+.icon-facebook {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+.icon-twitter {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.icon-google {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}
+.icon-insta {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+.icon-linkedIn {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+.icon-gitHub {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}
+.footer-link:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-singUp-title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 20px 0px 0px;
+  font-weight: 500;
+}
+.footer-input {
+  width: 500px;
+  height: 30px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.footer-subscribeBtn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: max-content;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.footer-singUpForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer-copyright-title {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.greenBg {
+  background-color: rgb(4, 164, 4);
+}
+
+.orangeBg {
+  background-color: rgb(228, 152, 10);
+}
+
+.redBg {
+  background-color: rgb(199, 8, 8);
+}
+.bell-count {
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(199, 8, 8);
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
